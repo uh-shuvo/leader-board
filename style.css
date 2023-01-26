@@ -1,0 +1,44 @@
+/* font */
+body {}
+
+header {
+    background-color: #562EFF;
+}
+
+.container {
+    width: 870px;
+    margin: 0 auto;
+
+}
+
+.head-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.head-photo {
+    display: flex;
+    align-items: center;
+}
+
+.head-photo img {
+    width: 40.42px;
+    height: 41px;
+}
+
+.logo-name {
+    font-size: 20px;
+    color: #FFFFFF;
+    margin-left: 5px;
+}
+
+.head-manu {
+    display: flex;
+    justify-content: center;
+}
+
+.menu-photo img {
+    width: 41px;
+    height: 41px;
+}
