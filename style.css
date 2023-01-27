@@ -140,3 +140,10 @@ hr {
 
 /* player section end 
 ===================== */
+
+/* blog sectin start 
+==================== */
+.blog img {
+    width: 224px;
+    height: 127px;
+}
