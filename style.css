@@ -76,6 +76,10 @@ main {
     background-color: #fff;
 }
 
+.top-players {
+    margin-left: 30px;
+}
+
 .title-name {
     font-size: 24px;
     font-weight: 500;
@@ -95,4 +99,8 @@ main {
 .player img {
     width: 56px;
     height: 56px;
+}
+
+.player-name {
+    margin-left: 18px;
 }
