@@ -76,6 +76,22 @@ main {
     background-color: #fff;
 }
 
+.title-name {
+    font-size: 24px;
+    font-weight: 500;
+    color: #562EFF;
+}
+
+.players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 31px;
+}
+
+.player {
+    display: flex;
+}
+
 .player img {
     width: 56px;
     height: 56px;
