@@ -118,9 +118,7 @@ hr {
 
 /* mobile devices  */
 @media only screen and (max-width: 688px) {
-    main {
-        background-color: lightblue;
-    }
+
 
     .players {
         display: grid;
@@ -178,4 +176,18 @@ hr {
     font-size: 16px;
     color: #562EFF;
     font-weight: 400;
+}
+
+/* media devices 
+================= */
+@media only screen and (max-width:688px) {
+    .blogs {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .blog-title {
+        font-size: 22px;
+        line-height: 28px;
+    }
 }
