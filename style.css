@@ -1,14 +1,15 @@
 /* font */
-body {}
+body {
+    background-color: #F3F1FF;
+}
 
-header {
+nav {
     background-color: #562EFF;
 }
 
 .container {
     width: 870px;
     margin: 0 auto;
-
 }
 
 .head-nav {
@@ -35,10 +36,47 @@ header {
 
 .head-manu {
     display: flex;
-    justify-content: center;
+}
+
+.head-manu a {
+    margin-left: 20px;
+    margin-right: 20px;
+    text-decoration: none;
+    margin-top: 10px;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
 }
 
 .menu-photo img {
     width: 41px;
     height: 41px;
+}
+
+/* nav mobile devices 
+--------------------- */
+@media only screen and (max-width:688px) {
+    .container {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .head-manu {
+        flex-direction: row-reverse;
+    }
+
+    .menu-photo {
+        flex-direction: row;
+    }
+}
+
+/* player section start 
+======================= */
+main {
+    background-color: #fff;
+}
+
+.player img {
+    width: 56px;
+    height: 56px;
 }
