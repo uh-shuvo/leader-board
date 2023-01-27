@@ -11,7 +11,7 @@ nav {
 }
 
 .container {
-    width: 870px;
+    width: 900px;
     margin: 0 auto;
 }
 
@@ -77,6 +77,8 @@ nav {
 ======================= */
 main {
     background-color: #fff;
+    padding-bottom: 20px;
+    border-radius: 10px;
 }
 
 .top-players {
@@ -190,4 +192,69 @@ hr {
         font-size: 22px;
         line-height: 28px;
     }
+}
+
+/* courses start 
+================= */
+.latest-courses {
+    margin-left: 31px;
+}
+
+.courses {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 15px;
+}
+
+.course {
+    padding: 11px 11px;
+    box-shadow: 1px 1px 9px -6px;
+    border-radius: 20px;
+}
+
+.course img {
+    width: 224.38px;
+    height: 105.51px;
+}
+
+.course-name {
+    font-size: 18.0336px;
+    line-height: 27px;
+}
+
+.course-author {
+    font-size: 14.6913px;
+    line-height: 17px;
+    font-weight: 400;
+    color: #ED6B4F;
+}
+
+.course-duration {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fa-star.filled {
+    color: #FFC014;
+}
+
+.fa-star.empty {
+    color: #AEAEAE;
+}
+
+.rating {}
+
+.course-info {
+    padding: 3px 10px;
+    background-color: #FEE5DF;
+    border-radius: 18px;
+}
+
+.fa-clock {
+    color: #FF4A60;
+}
+
+.time {
+    color: #FF4A60;
+    font-weight: bold;
 }
