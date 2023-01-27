@@ -141,9 +141,41 @@ hr {
 /* player section end 
 ===================== */
 
-/* blog sectin start 
+/* blog section start 
 ==================== */
+.blogs {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 30px;
+}
+
+.blog {
+    display: flex;
+}
+
 .blog img {
     width: 224px;
-    height: 127px;
+    height: 110px;
+}
+
+.blog-info {
+    margin-left: 15px;
+    margin-right: 20px;
+}
+
+.blog-title {
+    font-size: 16px;
+    align-items: center;
+}
+
+.blog-author {
+    line-height: 10px;
+    color: #9F9F9F;
+}
+
+.blog-author a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #562EFF;
+    font-weight: 400;
 }
