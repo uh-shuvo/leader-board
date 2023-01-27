@@ -115,3 +115,28 @@ hr {
 .player-name {
     margin-left: 18px;
 }
+
+/* mobile devices  */
+@media only screen and (max-width: 688px) {
+    main {
+        background-color: lightblue;
+    }
+
+    .players {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .player img {
+        width: 104px;
+        height: 104px;
+    }
+
+    .player-name {
+        margin-top: 40px;
+        justify-items: center;
+    }
+}
+
+/* player section end 
+===================== */
