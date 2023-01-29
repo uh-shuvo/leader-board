@@ -242,8 +242,6 @@ hr {
     color: #AEAEAE;
 }
 
-.rating {}
-
 .course-info {
     padding: 3px 10px;
     background-color: #FEE5DF;
@@ -257,4 +255,17 @@ hr {
 .time {
     color: #FF4A60;
     font-weight: bold;
+}
+
+/* media divices 
+================ */
+@media only screen and (max-width:688px) {
+    .courses {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .courses {
+        background-color: lightslategrey;
+    }
 }
